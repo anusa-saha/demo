@@ -1,4 +1,4 @@
-import { OrbitControls, Environment } from "@react-three/drei";
+import {OrbitControls, Environment, Gltf} from "@react-three/drei";
 import { Avatar } from "./Avatar.jsx";
 
 export const Experience = () => {
@@ -13,7 +13,6 @@ export const Experience = () => {
 
             {/* Model */}
             <Avatar scale={1.5} position={[0, -1.5, 0]} />
-
             {/* Environment */}
             <Environment preset="sunset" />
         </>

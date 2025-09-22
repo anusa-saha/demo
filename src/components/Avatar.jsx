@@ -12,7 +12,7 @@ export function Avatar(props) {
     const { animations: GreetingAnimation } = useFBX('/animation/Greeting.fbx')
     const { animations: TalkingAnimation } = useFBX('/animation/Talking.fbx')
 
-    const [animation, setAnimation] = useState("Idle")
+    const [animation, setAnimation] = useState("Greeting")
     const group = useRef()
 
     // Process animations
